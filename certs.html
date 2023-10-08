@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--adding the viewport to make page responsive to the screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Charmer Portfolio</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/quartz/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container">
+    <!--created the top navigation page that is responsive with internal links-->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <a class="navbar-brand" href="index.html">BootstrapProjex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Details
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="projects.html">Projects</a>
+                        <a class="dropdown-item" href="certs.html">Certifications</a>
+                        <a class="dropdown-item" href="about.html">About Me</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="certs" id="certs">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col">
+                    <div class="title">
+                        <h2>My Certifications</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../code/images/Alcoset_HTML.jpg" class="img-fluid" alt="HTML Cert">
+                        <div class="card-body">
+                            <p class="card-text">HTML Certification</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../code/images/Alcoset_CSS.jpg" class="img-fluid" alt="CSS Cert">
+                        <div class="card-body">
+                            <p class="card-text">CSS Certification</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="../code/images/Alcoset_Python.jpg" class="img-fluid" alt="Python Cert">
+                        <div class="card-body">
+                            <p class="card-text">Python Certification</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr>
+        <div class="row-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="credit">
+                            <p>© 2023 Kari Alcoset. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="scroll-up">
+                            <a href="#hero" class="back-to-top">Back to top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
